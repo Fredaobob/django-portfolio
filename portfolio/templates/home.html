@@ -22,76 +22,42 @@
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">    
     <link href="{% static '/style.css' %}" rel="stylesheet">
+    <link href="{% static '/button.css' %}" rel="stylesheet">
+    <link href="{% static '/background.css' %}" rel="stylesheet">
 </head>
-<body class="bg-dark text-white">
-<div class="container d-flex flex-column align-items-center">
-    <!-- SECTION -->
-    <section class="container d-flex flex-column align-items-center">
-        
-        <h1 id="nome" class="text-center mt-5">Alexandre Rodrigues</h1>
-        <h2 id="titulo"><small>FullStack Developer</small></h2>
-        <div class="sub-div">
-            <p id="subtitulo">Offering extensive expertise in web development, Python automation, and various related technologies. Whether it's crafting dynamic websites or automating tasks with Python scripts, I provide versatile solutions customized to suit your needs. Let's work together to bring your project to life. </p>
-        </div>
-        <div class="tecnologias my-4">
-            <div class="row">
-                <!-- Django -->
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card bg-dark text-white h-100">
-                        <div class="card-body text-center">
-                            <i class="fab fa-python fa-3x"></i> <!-- Não há um ícone específico para Django; usando Python como representação -->
-                            <h5 id="card-text-dj" class="card-title mt-2">Django</h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- HTML -->
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card bg-dark text-white h-100">
-                        <div class="card-body text-center">
-                            <i class="fab fa-html5 fa-3x"></i>
-                            <h5 id="card-text-ht" class="card-title mt-2">HTML5</h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- JavaScript -->
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card bg-dark text-white h-100">
-                        <div class="card-body text-center">
-                            <i class="fab fa-js-square fa-3x"></i>
-                            <h5 id="card-text-js" class="card-title mt-2">JavaScript</h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- Git -->
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card bg-dark text-white h-100">
-                        <div class="card-body text-center">
-                            <i class="fab fa-git-alt fa-3x"></i>
-                            <h5 id="card-text-gt" class="card-title mt-2">Git</h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- Python -->
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card bg-dark text-white h-100">
-                        <div class="card-body text-center">
-                            <i class="fab fa-python fa-3x"></i>
-                            <h5 id="card-text-py" class="card-title mt-2">Python</h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- Bootstrap -->
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card bg-dark text-white h-100">
-                        <div class="card-body text-center">
-                            <i class="fab fa-bootstrap fa-3x"></i>
-                            <h5 id="card-text-bt" class="card-title mt-2">Bootstrap</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>        
+<body class="background text-white">
+
+    <section class="wrapper">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
     </section>
+<div class="container d-flex flex-column align-items-center">
+
+<!--wrapper-->
+
+    
+
+<section id="landing" class="container d-flex flex-column align-items-center">
+    <h1 id="nome" class="text-center mt-5">Alexandre Rodrigues</h1>
+    <h2 id="titulo">
+        FullStack Developer
+    </h2>
+    <div data-aos="fade-down"  class="sub-div">
+        <p id="subtitulo">Offering extensive expertise in web development, Python automation, and various related technologies. Whether it's crafting dynamic websites or automating tasks with Python scripts, I provide versatile solutions customized to suit your needs. Let's work together to bring your project to life. </p>
+    </div>
+    <div id="landing-buttons">
+        <button class="button-29" role="button"><a href="#projetos">Projetos</a></button>    
+        <button class="button-29" role="button"><a href="#sobre-mim">Sobre mim</a></button>    
+        <button class="button-29" role="button"><a href="#contato">Contato</a></button>    
+    
+    </div>
+    
+</section>
+
+
+<!--wrapper-->
+
     <!-- SECTION -->
     <section data-aos="fade-down" id="sobre-mim" class="text-center my-5">
         <h2>Sobre mim</h2>

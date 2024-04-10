@@ -1,0 +1,58 @@
+<div data-aos="fade-down"  class="tecnologias my-4">
+            <div class="row">
+                <!-- Django -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card bg-dark text-white h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-python fa-3x"></i> <!-- Não há um ícone específico para Django; usando Python como representação -->
+                            <h5 id="card-text-dj" class="card-title mt-2">Django</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- HTML -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card bg-dark text-white h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-html5 fa-3x"></i>
+                            <h5 id="card-text-ht" class="card-title mt-2">HTML5</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- JavaScript -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card bg-dark text-white h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-js-square fa-3x"></i>
+                            <h5 id="card-text-js" class="card-title mt-2">JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Git -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card bg-dark text-white h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-git-alt fa-3x"></i>
+                            <h5 id="card-text-gt" class="card-title mt-2">Git</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Python -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card bg-dark text-white h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-python fa-3x"></i>
+                            <h5 id="card-text-py" class="card-title mt-2">Python</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bootstrap -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                    <div class="card bg-dark text-white h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-bootstrap fa-3x"></i>
+                            <h5 id="card-text-bt" class="card-title mt-2">Bootstrap</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        

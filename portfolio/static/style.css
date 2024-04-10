@@ -20,6 +20,11 @@ html {
   }
   
 
+#landing {
+
+    margin-bottom: 20vh;
+} 
+
 
 #nome {
     font-family: "M PLUS 1 Code", monospace;
@@ -32,14 +37,18 @@ html {
 }
 
 #titulo {
-    font-family: "M PLUS 1 Code", monospace;
-    font-size: 70px;
-    font-weight: 200;
-    background-image: linear-gradient(45deg, #56CCF2, #2F80ED); 
-    background-clip: text;
-    color: transparent;
-    padding-bottom: 40px;
-}
+    font-family: "M PLUS 1 Code", monospace !important;
+    font-size: 70px !important;
+    font-weight: 200 !important;
+    color: #fff !important; /* Text color */
+    padding-bottom: 40px !important;
+    text-shadow: 0 0 10px #56CCF2, 0 0 20px #56CCF2, 0 0 30px #56CCF2, 0 0 40px #2F80ED, 0 0 70px #2F80ED, 0 0 80px #2F80ED, 0 0 100px #2F80ED, 0 0 150px #2F80ED !important; /* Neon effect */
+
+}              
+#titulo:hover {
+    transform: scale(1.05);
+
+}     
 
 .sub-div {
     width: 500px;
@@ -56,6 +65,15 @@ html {
     background-image: linear-gradient(45deg, #56CCF2, #2F80ED); 
     background-clip: text;
     color: transparent;
+}
+
+#landing-buttons {
+    margin-top: 9vh;
+}
+
+#landing-buttons button a{
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -108,14 +126,20 @@ html {
 
 
 .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    
-}
+    animation: hoverEffect 0.5s forwards;
+  }
+  
+  @keyframes hoverEffect {
+    0% {
+      transform: scale(1);
 
-#sobre-mim {
-    padding-top: 300px;
-}
+    }
+    100% {
+      transform: scale(1.05);
+
+    }
+  }
+  
 
 
 
